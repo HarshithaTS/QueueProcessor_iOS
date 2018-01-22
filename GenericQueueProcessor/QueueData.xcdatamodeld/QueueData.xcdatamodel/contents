@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ErrorLog" representedClassName="ErrorLog" syncable="YES">
+        <attribute name="apiName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referenceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="QueuedProcess" representedClassName="QueuedProcess" syncable="YES">
+        <attribute name="altID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apiName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inputDataArrayString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="packageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="periority" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="processStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="queueDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="referenceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subApplication" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subApplicationVersion" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="QueuedProcess" positionX="-63" positionY="-18" width="128" height="283"/>
+        <element name="ErrorLog" positionX="-63" positionY="99" width="128" height="150"/>
+    </elements>
+</model>

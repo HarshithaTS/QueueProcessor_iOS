@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string></string>
+	<key>BuildBy</key>
+	<string></string>
+	<key>ServiceURL1</key>
+	<string>http://75.99.152.10:8050/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/110/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>ServiceURL</key>
+	<string>http://gsswd.globalsoftsolutions.net:7500/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/110/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>BuildName</key>
+	<string></string>
+	<key>Edition</key>
+	<string>iOS 7.0</string>
+	<key>Version</key>
+	<string>2.0</string>
+	<key>PackageName</key>
+	<string>ServicePro</string>
+	<key>Database</key>
+	<array>
+		<string>db_queueprocessor</string>
+		<string>VanStockDB.sqlite</string>
+		<string>ServiceReportsDB.sqlite</string>
+		<string>gssSystemDB.sqlite</string>
+	</array>
+</dict>
+</plist>
